@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>南</title>
+
+    <meta name="description" content="info of nancode.cn" />
+    <meta name="author" content="nan" />
+
+
+    <link href="../css/impress-demo.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="../favicon.png" />
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>您使用的浏览器<b>版本过低</b>或者<b>不在本站点支持的范围内</b>，建议您升级您的浏览器或下载性能更好的浏览器。</p>
+    <p>比如最新版本的 <a href="https://www.google.com/chrome" target="_blank">Chrome</a>，<a href="https://www.apple.com/cn/safari/" target="_blank">Safari</a>，<a href="http://www.firefox.com.cn/" target="_blank">Firefox</a> 或者 <a href="http://www.microsoft.com/china/windows/IE/upgrade/index.aspx" target="_blank">IE9+</a>。</p>
+</div>
+
+<div id="impress">
+
+    <div id="hello" class="step" data-x="-1000" data-y="-1000" >
+        <p ><b>Hello ！</b>我是<b>南（nan）</b>。</p>
+        <!--<span class="tips-control">nancode.cn提示您，<b>按动左右键，获取更多信息</b></span>-->
+    </div>
+
+    <div id="guide" class="step" data-x="1000" data-y="-1000">
+        <p>欢迎来到我的小站</p>
+        <p style="font-size: 20px;">--未排版，很丑，见谅</p>
+    </div>
+
+    <div class="step" data-x="2000" data-y="0"  data-rotate="180" >
+        <p>来了就是<b>盆友</b></p>
+        <p>咱先唠<b>5毛钱</b>的</p>
+    </div>
+
+    <!--<div class="step" data-x="1000" data-y="500"  data-rotate="270"  data-scale="1.6">-->
+    <!--<p>本人打小就<b class="positioning">"颠沛流离"</b></p>-->
+    <!--<p>虽没能<b>三岁耍大刀；五岁胸口碎大石</b></p>-->
+    <!--<p>但小学<b>"第一名"</b>的成就也够我吹好久</p>-->
+    <!--</div>-->
+
+    <!--<div class="step" data-x="-2000" data-y="3000">-->
+    <!--<p><b>校园style</b></p>-->
+    <!--<p>各界各业交好友；天南地北都是朋友</p>-->
+    <!--</div>-->
+
+    <div class="step" data-x="-1100" data-y="2800"  data-rotate-z="30" data-rotate-x="-90" data-scale="2">
+        <p>16年成为一员<b>"伟大的"</b> 攻城狮 囧rz</p>
+    </div>
+
+    <div class="step" data-x="0" data-y="1500"  data-rotate="-60" >
+        <p>梦想着，通过自己的不懈努力可以在不久的将来创造出一片自己的天地</p>
+    </div>
+
+    <div class="step"  data-x="0" data-y="1500"  data-scale=".05" >
+        <p>燃鹅～幸福来敲门之前依然要脚踏实地的为雇主的梦想奔命</p>
+    </div>
+
+    <div class="step" data-x="2000" data-y="2000" data-scale="4" data-rotate="-30"  >
+        <p>无聊的时候喜欢去社区趟水</p>
+        <p>
+            <a href="https://www.zhihu.com/people/nangit/activities" target="_blank"><img src="../img/zhihu.png" width="150" style="display: inline-block;"></a>
+            <a href="https://github.com/nanzm" target="_blank"><img src="../img/github.png" height="100" style="display: inline-block;"></a>
+            <a href="https://juejin.im/user/5751227e6be3ff006bd9ccba" target="_blank"><img src="../img/jj.png" height="100" style="display: inline-block;"></a>
+            <img src="../img/pancel.png" height="100" style="display: inline-block;">
+        </p>
+    </div>
+
+    <div class="step" data-x="4000" data-y="0" data-rotate="90" data-scale="2" >
+        <p><b>天生吃不胖</b>，说这话不会有报应吧</p>
+        <p>为了<b>"胖"</b>一点，时不时会去健身房<b>撸一把铁</b></p>
+        <img src="../img/ms.png" alt="">
+    </div>
+
+    <div class="step" data-x="3500" data-y="2500" data-rotate="-30" data-rotate-x="-70" data-rotate-y="50" data-scale="5">
+        <p>如果你对我有了<b>"一点兴趣"</b></p>
+        <p>我会很大方的和你交朋友</p>
+    </div>
+
+    <!--<div class="step"data-x="3500" data-y="2500" data-rotate="-30" data-rotate-x="-20" data-rotate-y="-30" data-scale="1">-->
+    <!--<p><img src="./img/wechat-qr.png" alt=""></p>-->
+    <!--</div>-->
+
+    <!--<div id="overview" class="step" data-x="1500" data-y="1000" data-scale="7">-->
+    <!--</div>-->
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+</script>
+
+<script src="../js/impress.js"></script>
+<script>
+    if(impress) {
+        impress().init();
+    }
+</script>
+
+</body>
+</html>
+
+
